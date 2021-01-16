@@ -1,9 +1,97 @@
+* { 
+    font-family: Arial, sans-serif;
+    color:rgb(36, 36, 36)
+}
+body{
+    min-width: 1124px;
+    
+
+}
+
 .container {
-    margin-top: 200px;
+    margin: auto;
+    margin-top: 150px;
    text-align: center;
+   width: 600px;
 }
 input[type=text] {
-    width: 300px;
-    border-radius: 0px;
+    width: 500px;
+    height: 45px;
+    border: none transparent;
+    outline: none;
     padding: 10px;
+    font-size: 16px;
+}
+
+
+.navbutt {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.topbar {
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+#lefthead {
+    align-self: center;
+    float: left;
+    
+    padding: 15px;
+}
+#righthead {
+    align-self: center;
+    float: right;
+    padding: 15px;
+}
+
+#searchbar {
+  
+    margin: 30px auto 30px auto;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: .25px;
+    width: 575px;
+    border-color: rgb(223, 216, 218);
+    height: 45px;
+    vertical-align: middle;
+}
+#searchbar:hover {
+    box-shadow: 1px 2px 5px rgb(238, 238, 238);
+    
+}
+
+#butt {
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+
+}
+#butt:hover {
+    border-style: solid;
+    border-width: .25px;
+    border-color: rgb(223, 216, 218);
+    
+    text-decoration: none;
+}
+
+#belowbutts {
+    display: flex;
+    justify-content: center;
+
+}
+
+#buttdiv {
+    margin: 0px 5px
 }
