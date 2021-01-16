@@ -90,6 +90,7 @@ a:hover {
     border-radius: 5px;
     font-size: 14px;
     color: rgb(36, 36, 36);
+    text-decoration: none;
 
 }
 #butt:hover {
