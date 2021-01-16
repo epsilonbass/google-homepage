@@ -3,7 +3,7 @@
     color:rgb(36, 36, 36)
 }
 body{
-    min-width: 1124px;
+    
     
 
 }
@@ -16,10 +16,10 @@ body{
 }
 input[type=text] {
     width: 500px;
-    height: 45px;
+    height: 30px;
     border: none transparent;
     outline: none;
-    padding: 10px;
+    padding: 0px 6px;
     font-size: 16px;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 
 #searchbar {
   
-    margin: 30px auto 30px auto;
+    margin: 30px auto;
     border-radius: 30px;
     border-style: solid;
     border-width: .25px;
@@ -69,6 +69,7 @@ a:hover {
     border-color: rgb(223, 216, 218);
     height: 45px;
     vertical-align: middle;
+
 }
 #searchbar:hover {
     box-shadow: 1px 2px 5px rgb(238, 238, 238);
@@ -95,6 +96,7 @@ a:hover {
     display: flex;
     justify-content: center;
 
+
 }
 
 #buttdiv {
@@ -107,5 +109,19 @@ a:hover {
     width: 100%;
     background-color: rgb(244, 244, 244);
     height: 50px;
+    display: flex;
+    align-content: center;
+ 
 
+}
+
+.footydiv {
+    height: 30px;
+    background-color: blue;
+    
+}
+
+.sbimg {
+    padding-top: 7px;
+    height: 26px;
 }
